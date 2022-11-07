@@ -2,19 +2,21 @@
   Created by IntelliJ IDEA.
   User: 1
   Date: 06.11.2022
-  Time: 16:21
+  Time: 17:27
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>First example</title>
+    <title>Show</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h2>Dear Employee, you are welcome!</h2>
     <br/>
     <br/>
-    <a href="askDetails">Please write your details</a>
+<%--    Your name: ${param.employeeName}--%>
+    Your name: ${nameAttribute}
+    Description: ${description}
 
 </body>
 </html>
